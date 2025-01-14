@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blur Event</title>
+</head>
+
+<body>
+
+    <h1>Blur Event Working</h1>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur amet veniam aut ipsam consectetur. Aspernatur
+        soluta eius, alias provident ratione dicta delectus, nostrum eum placeat, modi obcaecati adipisci odit omnis!
+        Minus quaerat nobis voluptatem nemo suscipit, a sequi blanditiis corrupti at culpa magnam harum mollitia dolores
+        velit necessitatibus laudantium possimus?</p>
+
+    <input type="text">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $("input").blur(function () {
+            $(this).css("background-color", "#ffffff");
+        });
+
+        $("p").on({
+            mouseenter: function () {
+                $(this).css("background-color", "lightgray");
+            },
+            mouseleave: function () {
+                $(this).css("background-color", "lightblue");
+            },
+            click: function () {
+                $(this).css("background-color", "yellow");
+            }
+        });
+    </script>
+
+</body>
+
+</html>

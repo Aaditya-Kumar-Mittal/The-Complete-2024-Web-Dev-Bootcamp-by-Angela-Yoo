@@ -1,0 +1,69 @@
+!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .grid-container {
+            background-color: white;
+            display: grid;
+            height: auto;
+            margin: 30px;
+            width: auto;
+            grid-template-columns: repeat(3, auto);
+            grid-template-rows: 200px 150px 350px;
+            gap: 25px;
+            border: 25px solid white;
+            border-radius: 15px;
+        }
+
+        .grid-item-1 {
+            background-color: #060047;
+            grid-column: span 3;
+        }
+
+        .grid-item-2 {
+            background-color: #B3005E;
+            grid-column: span 2;
+        }
+
+
+        .grid-item-6 {
+            background-color: #060047;
+            grid-row: span 2;
+        }
+
+        .grid-item-7 {
+            background-color: #E90064;
+        }
+
+        .grid-item-8 {
+            background-color: #FF5F9E;
+        }
+
+        .rad {
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item-1 rad"></div>
+        <div class="grid-item-2 rad"></div>
+        <div class="grid-item-6 rad"></div>
+        <div class="grid-item-7 rad"></div>
+        <div class="grid-item-8 rad"></div>
+
+    </div>
+
+</body>
+
+</html>

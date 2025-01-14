@@ -1,0 +1,9 @@
+body {
+  background-color: red;
+}
+
+.big-title {
+  color: yellowgreen;
+  font-size: 50px;
+  border: 2px solid yellowgreen;
+}

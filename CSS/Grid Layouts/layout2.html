@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #4C4B16;
+        }
+
+        .grid-container{
+            background-color: white;
+            display: grid;
+            height: auto;
+            margin: 50px;
+            width: auto;
+            grid-template-columns: repeat(4, auto);
+            grid-template-rows: 90px 90px 300px 300px;
+            gap: 25px;
+            border: 25px solid white;
+            border-radius: 15px;
+        }
+        .grid-item-1{
+            background-color: #4C4B16 ;
+            grid-row: span 2;
+        }
+
+        .grid-item-2{
+            background-color: #F7F1E5;
+            grid-column: span 3;
+        }
+        .grid-item-3{
+            background-color: #898121;
+        }
+        .grid-item-6{
+            background-color: #898121;
+            grid-row: span 2;
+        }
+        .grid-item-7{
+            background-color: #E7B10A;
+            grid-column: span 3;
+        }
+        .grid-item-8{
+            background-color: #898121;
+            grid-column: span 3;
+        }
+
+        .rad{
+            border-radius: 15px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item-1 rad"></div>
+        <div class="grid-item-2 rad"></div>
+        <div class="grid-item-3 rad"></div>
+        <div class="grid-item-3 rad"></div>
+        <div class="grid-item-3 rad"></div>
+        <div class="grid-item-6 rad"></div>
+        <div class="grid-item-7 rad"></div>
+        <div class="grid-item-8 rad"></div>
+
+    </div>
+
+</body>
+</html>

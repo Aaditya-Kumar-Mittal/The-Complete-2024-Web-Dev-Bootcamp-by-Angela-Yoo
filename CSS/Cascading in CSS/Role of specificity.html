@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            color: red;
+        }
+        li[draggable]{
+            color: green;
+
+        }
+        .first-class{
+            color: blueviolet;
+        }
+        #first-id{
+            color: darkblue;
+        }
+        
+    </style>
+</head>
+<body>
+    Order of specificity: id>class>attribute>element
+    <ol>
+        <li>One</li>
+        <li id="first-id">Two</li>
+        <li class="first-class">Three</li>
+        <li draggable="">Four</li>
+    </ol>
+    
+</body>
+</html>

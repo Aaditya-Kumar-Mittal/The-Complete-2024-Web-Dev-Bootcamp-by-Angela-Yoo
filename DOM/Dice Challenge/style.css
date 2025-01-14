@@ -1,0 +1,46 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  color: #72e9f0;
+  margin-top: 25px;
+  font-size: 25px;
+  /* text-decoration: underline; */
+  font-family: 'Lobster',cursive;
+}
+
+body {
+  background-color: #4b4b4b;
+}
+
+h1 {
+  margin: 70px;
+  color: #72e9f0;
+  font-family: "Lobster", cursive;
+  font-size: 5rem;
+  text-shadow: 5px 5px rgb(97, 81, 81);
+}
+
+h3 {
+  color: #72e9f0;
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  margin: 25px;
+  text-align: center;
+  text-shadow: 5px 5px rgb(119, 104, 104);
+}
+
+img {
+  width: 80%;
+}

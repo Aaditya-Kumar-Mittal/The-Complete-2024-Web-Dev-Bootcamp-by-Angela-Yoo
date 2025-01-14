@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 100px 200px 200px 200px 100px;
+            grid-template-rows: 100px 350px 200px;
+            background-color: white;
+            margin: 30px;
+            gap: 25px;
+            border-radius: 15px;
+            border: 25px solid white;
+            height: auto;
+            width: auto;
+        }
+
+        .rad {
+            border-radius: 15px;
+        }
+
+        .grid-item-1 {
+            background-color:#38E54D;
+            grid-column: span 5;
+        }
+
+        .grid-item-2 {
+            background-color:#FDFF00;
+            grid-row: span 2;
+        }
+
+        .grid-item-3 {
+            background-color: #2192FF;
+            grid-column: span 3;
+        }
+        .grid-item-5{
+            background-color: #9CFF2E;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item-1 rad"></div>
+        <div class="grid-item-2 rad"></div>
+        <div class="grid-item-3 rad"></div>
+        <div class="grid-item-2 rad"></div>
+        <div class="grid-item-5 rad"></div>
+        <div class="grid-item-5 rad"></div>
+        <div class="grid-item-5 rad"></div>
+
+
+    </div>
+
+</body>
+
+</html>

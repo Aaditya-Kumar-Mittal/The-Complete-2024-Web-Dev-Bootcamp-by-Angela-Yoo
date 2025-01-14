@@ -1,0 +1,25 @@
+/* Write your code here: */
+
+/* Group selection can group elements, classes */
+h1,
+h2 {
+  color: blueviolet;
+}
+
+.box > p {
+  color: firebrick;
+}
+
+.list li {
+  color: blue;
+}
+
+li.done {
+  color: seagreen;
+}
+
+ul p.done{
+    font-size: 0.5rem;
+}
+/* Child selection: used to select the child of another selector */
+/* selector>selector{code} the child is only oe level deep */

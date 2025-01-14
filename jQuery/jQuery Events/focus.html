@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Event</title>
+</head>
+
+<body>
+
+    <h1>Focus Event Working</h1>
+
+    <input type="text">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $("input").focus(function () {
+            $(this).css("background-color", "#cc00cc");
+        });
+    </script>
+
+</body>
+
+</html>

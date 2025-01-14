@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mouseip event</title>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, vitae!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, vitae!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, vitae!</p>
+
+    <button>Click Me!</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").mouseup(function () {
+                $("p").css("color", "purple");
+            }),
+                $("button").mousedown(function () {
+                    $("p").css("color", "red");
+                })
+        })
+    </script>
+</body>
+
+</html>
